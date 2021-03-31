@@ -17,7 +17,7 @@ public:
 		string get_firstname() const {return first_name;}
 		string get_secondname()const {return second_name;}
 		int get_age() const {return o_age;}
-		//c7,9
+		
 		void set_firstname(string firstname)
 		{
 			for(int i=0;i<firstname.length();i++)
